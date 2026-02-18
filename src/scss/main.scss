@@ -1,5 +1,42 @@
 * {
+  font-family: 'Roboto';
   margin: 0;
 }
 
-/* Aquí van tus estilos */
+h1,h2,h3 {
+  font-family: 'Roboto Slab';
+}
+
+.menu{
+  height: 18px;
+  background-color: #6C933E;
+  padding: 16px;
+  position: fixed;
+}
+
+.hero-comienzos-compartidos{
+  color: #ffffff;
+  background-image: url('/images/hero-cover.webp');
+  background-size: cover;
+  height: 556px;
+  background-position: 85% center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 64px;
+}
+
+.down{
+  height: 38px;
+  margin-top: 24px;
+}
+
+h1{
+  line-height: 50px;
+}
+
+.subtitulo{
+  margin: 16px 20px 16px 20px;
+}
+
