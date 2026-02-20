@@ -153,6 +153,49 @@ h3{
   align-items:center;
 }
 
-.nav-dos{
-  padding: 30px 0;
+
+.nav-tres{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-tres p{
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.nav-uno, .nav-dos, .nav-tres{
+  padding: 16px;
+}
+
+
+@media (min-width: 768px) {
+  .imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+  }
+
+  .footer-contenido {
+    display: flex;
+    margin: 0 auto;          
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;  
+    text-align: left;
+    gap: 80px;
+  }
+
+  .nav-tres { order: 1; }
+  .nav-uno  { order: 2; }
+  .nav-dos  { order: 3; }
+
+  .nav-uno a,
+  .nav-dos a {
+    display: block;
+    padding: 8px 0;
+    align-items: flex-start;
+  }
 }
