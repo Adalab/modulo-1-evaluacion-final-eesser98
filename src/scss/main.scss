@@ -47,6 +47,7 @@ h1{
 .antetitulo{
   color:#6C933E;
   font-size: 14px;
+  padding-bottom: 16px;
 }
 
 h2{
@@ -197,5 +198,15 @@ h3{
     display: block;
     padding: 8px 0;
     align-items: flex-start;
+  }
+}
+
+@media (min-width: 1280px) {
+  #tienda-deporte{
+    padding: 0px 250px 0px 275px; 
+  }
+
+  .imagenes{
+    gap: 180px;
   }
 }
